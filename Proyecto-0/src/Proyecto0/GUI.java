@@ -69,12 +69,13 @@ public class GUI extends JFrame {
 		
 		JLabel lblFrase = new JLabel("");
 		panel_4.add(lblFrase);
-		lblFrase.setText("AY CARAMBA!!");
-		lblFrase.setVisible(false);
+		lblFrase.setPreferredSize(new Dimension(100,10));
 		
 		btnFrase.addActionListener(new ActionListener(){
-			public void actionPerformed(ActionEvent e){
-				lblFrase.setVisible(true);
+			public void actionPerformed(ActionEvent e)
+			{
+				lblFrase.setText("AY CARAMBA!!");
+				btnFrase.setEnabled(false);
 			}
 		});
 	}
