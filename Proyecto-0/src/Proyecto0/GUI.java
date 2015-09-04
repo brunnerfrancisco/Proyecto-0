@@ -74,7 +74,7 @@ public class GUI extends JFrame {
 		btnFrase.addActionListener(new ActionListener(){
 			public void actionPerformed(ActionEvent e)
 			{
-				lblFrase.setText("AY CARAMBA!! iuju");
+				lblFrase.setText("AY CARAMBA!!");
 				btnFrase.setEnabled(false);
 			}
 		});
